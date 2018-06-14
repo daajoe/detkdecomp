@@ -9,3 +9,25 @@ https://arxiv.org/abs/cs/0701083
 
 
 Contains in addition a Makefile and a python wrapper to obtain the optimal value (progression from above using last obtained upper bound). 
+
+## Download:
+```bash
+git clone git@github.com:daajoe/detkdecomp.git
+````
+
+## Installation
+```bash
+cd sources
+make
+````
+
+## Manpage
+```bash
+bin/htd_validate --help
+```
+
+## Run
+```bash
+./progression -f myhypergraph.hg
+```
+
